@@ -5,13 +5,13 @@ int main(){
         scanf("%d%d", &P,&R);
         
         if (P==0){
-            printf("C\n");
+            printf("C");
         }
             else if ((P==1) && (R==0)){
-                printf("B\n");
+                printf("B");
             }
             else if ((P==1) && (R==1)){
-                printf("A\n");
+                printf("A");
             }
     return 0;
 }
