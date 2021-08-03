@@ -18,9 +18,9 @@ void telaFinal(float *ValorTotalVenda){
 		printf("Desconto:");
 		scanf("%f",&desconto);
 		descontoTotal = *ValorTotalVenda - desconto;
-		printf("Valor para pagamento:%f", descontoTotal);
+		printf("Valor para pagamento:%.2f", descontoTotal);
 		printf("\n-----Variaveis de controle-----");
-		printf("\nValor total da compra depois do desconto:%f", descontoTotal);		
+		printf("\nValor total da compra depois do desconto:%.2f", descontoTotal);		
 }
 int main(){
 	while(1){
